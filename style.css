@@ -36,7 +36,30 @@ body{
     outline-style: solid;
     outline-color: black 1px;
 }
-
+.redLeft{
+    background-color: red;
+    height: 12.5vh;
+    display: flex;
+    width: 50%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.smallYellowLeft{
+    background-color: yellow;
+    height: 6.25vh;
+    display: flex;
+    width: 50%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.blueLeft{
+    background-color: blue;
+    height: 3.125vh;
+    display: flex;
+    width: 50%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
 .ToBottomRight{
     display: flex;
     justify-content: flex-end;
@@ -60,4 +83,77 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-end;
+}
+.Right{
+        display: flex;
+        height: 100vh;
+        width: 50%;
+        flex-direction: column; 
+}
+.toBottom{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.toUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.toDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.blueRight{
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.purpleRight{
+    background-color: purple;
+    height: 50%;
+    width: 100%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.smallBlueRight{
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.greenRight{
+    background-color: green;
+    height: 50%;
+    width: 100%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.yellowRight{
+    background-color: yellow;
+    height: 50%;
+    width: 100%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.redRight{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+.whiteRight1{
+        background-color: white;
+        height: 50%;
+        width: 30%;
+        outline-style: solid;
+        outline-color: black 1px;
 }
