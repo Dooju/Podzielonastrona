@@ -28,3 +28,36 @@ body{
     height: 50vh;
     width: 100%;
 }
+.greenLeft{
+    background-color: greenyellow;
+    height: 25vh;
+    display: flex;
+    width: 50%;
+    outline-style: solid;
+    outline-color: black 1px;
+}
+
+.ToBottomRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.ToBottomLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.ToTopRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+.ToTopLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
+}
