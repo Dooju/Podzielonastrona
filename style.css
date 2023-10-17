@@ -5,19 +5,34 @@ body{
     width: 100vw;
     height: 100vh;
 }
-.yellowLeft{
+.Left{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+.yellowLeft1{
+    display: flex;
     background-color: yellow;
-    height: 100%;
-    width: 50%;
-}
-.greenLeft{
-    background-color: greenyellow;
     height: 50%;
-    width: 50%;
+    width: 25%;
+    float: left;
 }
-
-.blueRight{
-    background-color: blue;
-    height: 100%;
-    width: 50%;
+.yellowLeft2{
+    display: flex;
+    background-color: yellow;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.yellowLeft3{
+    display: flex;
+    background-color: yellow;
+    height: 50%;
+    width: 25%;
+}
+.yellowLeft4{
+    display: flex;
+    background-color: yellow;
+    height: 50%;
+    width: 25%;
 }
